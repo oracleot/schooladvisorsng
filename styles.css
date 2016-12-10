@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,300i,400,400i,600');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+    margin: 0; padding: 0
+}
+
+.top-banner{
+    position: relative;
+
+    background: url(topbanner.jpg) center center no-repeat;
+    background-attachment: fixed;
+    min-height: 700px;
+    background-size: cover;
+}
+
+.logo{ position: absolute; top: 2%; left: 5%; }
+.logo img{width: 30%}
+
+.search-box{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    text-align: center;
+}
+.form{ margin-top: 30px }
+.school-type{ width: 15%; height: 45px }
+input.submit{
+    width: 30%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 25px;
+    border: none;
+    background-color: #e91e63;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14pt;
+}
+
+
+.search-box h1{text-transform: uppercase; color: #fff; font-weight: 400; font-family: 'Montserrat', sans-serif}
+.search-box p{color: #fff; font-size: 15pt; font-weight: 300;}
+.search-box p span{color: #e91e63; font-weight: 400}
+
+.schools-by-location{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+    background: url('map.jpg') center no-repeat;
+}
+.title img{ width: 60px }
+.title h2{position: relative; top: -10px; font-weight: 400; color: #e91e63}
+
+hr{width: 50%}
+
+.location{
+    width: 23%;
+    background: #fff;
+    border: solid thin #03a9f4;
+    border-radius: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    margin: 1%
+}
+.location:hover{
+    background-color: #03a9f4; color: #fff; font-weight: 600; cursor: pointer
+}
+.clearfix{clear: both}
+
+.featured-schools{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+    background-color: #e91e63;
+    color: #fff;
+    padding: 5%
+}
+
+.featured-schools h2{color: #fff}
+
+.schools{position: relative; top: 30px}
+
+button.slick-next{position: absolute; right: -2%; top: 30%; padding: 0; border: none; background: transparent}
+button.slick-prev{position: absolute; z-index:2; left: -2%; top: 30%; padding: 0; border: none; background: transparent}
+
+.slide img{width: 100%; border-radius: 10px}
+.desc{text-align: left}
+.desc p{font-family: 'Open Sans', sans-serif}
+.desc a{background: #03a9f4; text-transform: uppercase; margin-top: 10px}
+
+.helpful-tips{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    color: #212121;
+}
+.helpful-tips h2{color: #212121}
+.news-card{padding: 1%; border: solid thin #fff}
+.news-card img{width: 100%; border-radius: 10px}
+.news-card p{font-size: 90%; padding-top: 10px}
+
+.helpful-tips .btn-info{
+    background: #212121; border: none; border-radius: 0; padding: 15px 30px
+}
+
+.footer{
+    width: 100%;
+    margin-top: 2%;
+    background-color: #212121;
+    color: #fff;
+    padding: 2%
+}
+
+.footer img.footer-logo{ width: 35%; margin-bottom: 3% }
+.footer h3{color: #e91e63; text-transform: uppercase; font-family: 'Montserrat', sans-serif}
+.footer img.social{width: 13%; padding-right: 2px}
+.footer .form-control{margin-bottom: 1%}
+.socially{text-align: center}
+.footer-text{text-align: center; padding-top: 1%}
+
+@media screen and (min-width: 600px){
+    .search-box h1{font-size: -webkit-xxx-large; }
+}
+
+@media screen and (max-width: 1200px){
+    input.submit{width: 50%} .school-type{ width: 25% }
+}
+
+@media screen and (max-width: 680px){
+    input.submit{width: 80%} .school-type{ width: 40% }
+    .top-banner{min-height: 500px}
+}
+
+@media screen and (max-width: 480px){
+    .search-box p{ width: 90%; margin-left: 5% }
+}
+
+@media screen and (max-width: 768px){
+    .logo{ left: 33.5% } .logo img{ width: 45% }
+    .location{width: 48%}
+    .footer{text-align: center}
+    .footer img.social{width: 10%;}
+}
