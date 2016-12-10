@@ -134,7 +134,7 @@ button.slick-prev{position: absolute; z-index:2; left: -2%; top: 30%; padding: 0
 @media screen and (max-width: 680px){
     input.submit{width: 80%} .school-type{ width: 40% }
     .top-banner{min-height: 500px}
-    button.slick-prev,button.slick-next{top: 20%;}
+    button.slick-prev,button.slick-next{top: 20% }
 }
 
 @media screen and (max-width: 480px){
