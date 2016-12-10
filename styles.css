@@ -150,5 +150,5 @@ button.slick-prev{position: absolute; z-index:2; left: -2%; top: 30%; padding: 0
     .location{width: 48%}
     .footer{text-align: center}
     .footer img.social{width: 10%;}
-    .dropdown-menu>li>a{color: #fff}
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{color: #fff}
 }
