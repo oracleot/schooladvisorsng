@@ -48,6 +48,16 @@ input.submit{
 .menu{margin: 0; text-align: center}
 .navbar{margin: 0; border: none; border-radius: 0; background: #e91e63; position: relative}
 .navbar-default .navbar-nav>li>a{color: #fff}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover { background: transparent; border: solid thin #fff}
 
 .schools-by-location{
     font-family: 'Montserrat', sans-serif;
