@@ -218,6 +218,17 @@
         $('.schools').slick();
         $('.slick-next').empty().prepend('<img src="right-btn.jpg" width="40px"/>');
         $('.slick-prev').empty().prepend('<img src="left-btn.jpg" width="40px"/>');
+
+        $(window).scroll(function(){
+            var s = $(this).scrollTop();
+            console.log(s);
+
+            if(s>700 && $(window).innerWidth() > 768 ){
+                $('.navbar').css('position','fixed').css('border-bottom','solid thin #fff');
+            }else{
+                $('.navbar').css('position','relative');
+            }
+        });
     });
     </script>
 </body>
